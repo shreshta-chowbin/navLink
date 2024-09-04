@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+@font-face {
+  font-family: orangee;
+  src: url("./orange\ juice\ 2.0.ttf");
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100vw; */
+  /* height: 100vh; */
+  background-color: lightblue;
+  width: 100%;
+}
+
+.imgDiv{
+  /* display: inline-block; */
+  width: 100%;
+}
+
+.imgDiv img{
+  width: 100%;
+  background-color: lightblue;
+}
+
+.formsDiv{
+  width: 400px;
+  margin: 1%;
+  background-color: white;
+}
+
+/* .formsDiv div{
+  width: 100%;
+} */
+
+.formComponentsDiv{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.formsDiv h1{
+  height: 30px;
+  width: 100%;
+  color: lightseagreen;
+  font-family: "Inconsolata", monospace;
+}
+
+/* .formsDiv input{
+  width: 90%;
+  height: 40px;
+  margin: 20px;
+  background-color: rgb(228, 245, 251);
+} */
+
+/* .formsDiv label{
+  width: 90%;
+  text-align: justify;
+  margin: 20px;
+} */
+
+.inputsDiv input{
+  width: 90%;
+  height: 40px;
+  margin: 10px;
+  background-color: rgb(228, 245, 251);
+}
+
+.formsDiv select{
+  width: 90%;
+  height: 40px;
+  margin: 10px;
+  background-color: rgb(228, 245, 251);
+}
+
+.formsDiv option{
+  width: 90%;
+  height: 40px;
+  margin: 10px;
+  background-color: rgb(228, 245, 251);
+}
+
+.formsDiv label{
+  text-align: justify;
+  font-family: "SUSE", sans-serif;
+  text-shadow: 10px 10px 30px black;
+  margin: 20px;
+}
+
+.formButtonsDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.submitButton button{
+  color: white;
+  width: 70px;
+  margin: 10px;
+  height: 40px;
+  border:0px;
+  background-color: lightseagreen;
+}
+
+.submitButton button:hover{
+  background-color: rgb(19, 131, 125);
+  /* color: lightseagreen; */
+}
+
+.backButton button{
+  color: black;
+  width: 70px;
+  margin: 10px;
+  height: 40px;
+  border:0px;
+  background-color: rgb(217, 217, 217);
+}
+
+.backButton button:hover{
+  /* background-color: rgb(19, 131, 125); */
+  color: lightseagreen;
+}
+
+.radioButtonsDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin: 10px;
+}
+
+.radioButtonsDiv label{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formsDiv span{
+  text-align: left;
+  color: red;
+}
+
+/* .norDiv{
+  text-align: center;
+} */
+
+.labelHeading{
+  border: 2px inset black;
+  background-color: rgb(228, 245, 251);
+}
+
+.brnLink{
+  background: lightblue;
+  padding: 10px;
+  width: 100%;
+}
+
+.pageNotFoundDiv{
+  background-image: url("./images/bg.jpg"), url("./images/brn-logo.png");
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-attachment: fixed;
+  background-size:cover, contain;
+  font-size: 2rem;
+  font-family: orangee;
+}
+
+/* .formButtonsDiv input{
+  margin: 0px;
+} */
+
+.homePages{
+  width: 100%;
+}
+
+.stuInterForm{
+  width: 1200px;
+  margin: 10%;
+  background-color: whitesmoke;
+  outline: 2px solid black;
+  outline-offset: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .stuInterForm div{
+  margin: 10px;
+} */
+
+.stuDetailsDiv{
+  width: 100%;
+  text-align: left;
+}
+
+.stuDetailsDiv legend{
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 0px;
+  text-shadow: 10px 10px 15px black;
+  font-family: orangee;
+}
+
+.stuDetailsDiv label{
+  display: inline-block;
+  /* text-align: center; */
+  width: 125px;
+  margin:10px;
+}
+
+.subDiv{
+  width: 240px;
+  margin: 5px;
+}
+
+.marksDiv{
+  width: 280px;
+  margin: 5px;
+}
+
+.marksDiv input{
+  text-align: center;
+  margin: 10px;
+  width: 85px;
+}
+
+.stuMarks1Div{
+  width: 320px;
+  margin: 5px;
+}
+
+.stuMarks1Div input{
+  width: 40%;
+}
+
+.stuMarks1Div span{
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+}
+
+.stuMarks2Div{
+  width: 320px;
+  margin: 5px;
+}
+
+.stuMarks2Div input{
+  width: 40%;
+}
+
+.stuMarks2Div span{
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+}
+
+.resultDiv{
+  width: 100%;
+}
+
+
+legend{
+  text-align: center;
+  font-size: 1.7rem;
+  margin-bottom: 50px;
+  font-family: "Nerko One", cursive;
+}
+
+.stuInterForm input{
+  margin: 10px;
+}
+
+.inputHeading input{
+  text-align: center;
+  font-family: "SUSE", sans-serif;
+  background-color: white;
+  font-size:1rem;
+}
+
+
+/* .homePages label{
+  width: 200px;
+} */
+
+.hidden{
+  visibility: hidden;
+}
+
+/* .formHeading{
+  width: 100%;
+}  */
+
+

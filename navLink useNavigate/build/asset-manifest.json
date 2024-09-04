@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8930b3ac.css",
+    "main.js": "/static/js/main.c28caa78.js",
+    "static/js/453.9c534bc7.chunk.js": "/static/js/453.9c534bc7.chunk.js",
+    "static/media/orange juice 2.0.ttf": "/static/media/orange juice 2.0.a11484965446fd4c1e99.ttf",
+    "static/media/brn-logo.png": "/static/media/brn-logo.aeed1338f35072521875.png",
+    "static/media/bg.jpg": "/static/media/bg.4397129dfc04b38b5a2c.jpg",
+    "index.html": "/index.html",
+    "main.8930b3ac.css.map": "/static/css/main.8930b3ac.css.map",
+    "main.c28caa78.js.map": "/static/js/main.c28caa78.js.map",
+    "453.9c534bc7.chunk.js.map": "/static/js/453.9c534bc7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8930b3ac.css",
+    "static/js/main.c28caa78.js"
+  ]
+}
